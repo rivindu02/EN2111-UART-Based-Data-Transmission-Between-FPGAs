@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/Downloads/test FPGA/simulation/questa
+T_opt
+!s110 1746955481
+ViQP?N;X1LP4I1lcU6j`4=0
+Z2 04 31 4 work tb_invert_uart_transceiver_test fast 0
+=1-ac198ef8a14c-68206cd8-272-1b80
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM10U5 
+Z6 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2024.3;79
+R1
+T_opt1
+!s110 1746955513
+V:GmSb_flP9XjAH:<5VRG41
+R2
+=1-ac198ef8a14c-68206cf8-2f0-6ba0
+R0
+R3
+R4
+R5
+R6
+o-quiet -auto_acc_if_foreign -work work +acc
+R7
+n@_opt1
+R8
+vbinary_to_7seg
+2D:/Downloads/test FPGA/binary_to_7seg.v
+!s110 1746955471
+!i10b 1
+!s100 n:Sjl2_U2@^UJ1dU22^QA3
+IVPF`EzkGjzWlEf0@C3G:`2
+R1
+w1746636332
+8D:/Downloads/test FPGA/binary_to_7seg.v
+FD:/Downloads/test FPGA/binary_to_7seg.v
+!i122 4
+L0 1 34
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2024.3;79
+r1
+!s85 0
+31
+!s108 1746955471.000000
+!s107 D:/Downloads/test FPGA/binary_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Downloads/test FPGA|D:/Downloads/test FPGA/binary_to_7seg.v|
+!i113 0
+Z11 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -vlog01compat -work work {+incdir+D:/Downloads/test FPGA} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+vinvert_uart_transceiver_test
+2D:/Downloads/test FPGA/invert_uart_transceiver_test.v
+Z13 !s110 1746955470
+!i10b 1
+!s100 2WSW[KFmWFPY?D7EY9WM>2
+IE6IN]WPUz`a2==Zg0jifJ1
+R1
+w1746680643
+8D:/Downloads/test FPGA/invert_uart_transceiver_test.v
+FD:/Downloads/test FPGA/invert_uart_transceiver_test.v
+!i122 2
+L0 3 80
+R9
+R10
+r1
+!s85 0
+31
+Z14 !s108 1746955470.000000
+!s107 D:/Downloads/test FPGA/invert_uart_transceiver_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Downloads/test FPGA|D:/Downloads/test FPGA/invert_uart_transceiver_test.v|
+!i113 0
+R11
+R12
+R7
+vtb_invert_uart_transceiver_test
+2D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v
+R13
+!i10b 1
+!s100 of6ni=VXoKVUeZ_E@[GJ_3
+I<LEU?ian6]bH0l^2[4nb82
+R1
+w1746628100
+8D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v
+FD:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v
+!i122 3
+L0 3 61
+R9
+R10
+r1
+!s85 0
+31
+R14
+!s107 D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Downloads/test FPGA|D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v|
+!i113 0
+R11
+R12
+R7
+vuart_rx
+2D:/Downloads/test FPGA/uart_rx.v
+R13
+!i10b 1
+!s100 KQF=8FAWNcKT>PY2AEmUi1
+I8B?mSa8ECnAEaNVT@@>:l1
+R1
+w1746627647
+8D:/Downloads/test FPGA/uart_rx.v
+FD:/Downloads/test FPGA/uart_rx.v
+!i122 1
+L0 3 66
+R9
+R10
+r1
+!s85 0
+31
+R14
+!s107 D:/Downloads/test FPGA/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Downloads/test FPGA|D:/Downloads/test FPGA/uart_rx.v|
+!i113 0
+R11
+R12
+R7
+vuart_tx
+2D:/Downloads/test FPGA/uart_tx.v
+!s110 1746955469
+!i10b 1
+!s100 ^3ijc82M2iX?3W7DMBkhC1
+IjV7ig0d17gEQ`ANC@G=]J3
+R1
+w1746627402
+8D:/Downloads/test FPGA/uart_tx.v
+FD:/Downloads/test FPGA/uart_tx.v
+!i122 0
+L0 3 33
+R9
+R10
+r1
+!s85 0
+31
+!s108 1746955469.000000
+!s107 D:/Downloads/test FPGA/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Downloads/test FPGA|D:/Downloads/test FPGA/uart_tx.v|
+!i113 0
+R11
+R12
+R7

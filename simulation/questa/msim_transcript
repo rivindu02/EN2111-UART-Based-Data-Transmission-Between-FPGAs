@@ -1,0 +1,236 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 win64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do UART_test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap work rtl_work 
+# Copying d:/documents/altera/24.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Downloads/test\ FPGA {D:/Downloads/test FPGA/uart_tx.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:54:29 on May 11,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Downloads/test FPGA" D:/Downloads/test FPGA/uart_tx.v 
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 14:54:29 on May 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Downloads/test\ FPGA {D:/Downloads/test FPGA/uart_rx.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:54:30 on May 11,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Downloads/test FPGA" D:/Downloads/test FPGA/uart_rx.v 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 14:54:30 on May 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Downloads/test\ FPGA {D:/Downloads/test FPGA/invert_uart_transceiver_test.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:54:30 on May 11,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Downloads/test FPGA" D:/Downloads/test FPGA/invert_uart_transceiver_test.v 
+# -- Compiling module invert_uart_transceiver_test
+# 
+# Top level modules:
+# 	invert_uart_transceiver_test
+# End time: 14:54:30 on May 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Downloads/test\ FPGA {D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:54:30 on May 11,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Downloads/test FPGA" D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v 
+# -- Compiling module tb_invert_uart_transceiver_test
+# 
+# Top level modules:
+# 	tb_invert_uart_transceiver_test
+# End time: 14:54:30 on May 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Downloads/test\ FPGA {D:/Downloads/test FPGA/binary_to_7seg.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 14:54:31 on May 11,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Downloads/test FPGA" D:/Downloads/test FPGA/binary_to_7seg.v 
+# -- Compiling module binary_to_7seg
+# 
+# Top level modules:
+# 	binary_to_7seg
+# End time: 14:54:31 on May 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.tb_invert_uart_transceiver_test
+# vsim work.tb_invert_uart_transceiver_test 
+# Start time: 14:54:40 on May 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v(26): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 8, found 7.
+# ** Warning: D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v(26): (vopt-2718) [TFMPC] - Missing connection for port 'seg'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.tb_invert_uart_transceiver_test(fast)
+add wave -position insertpoint sim:/tb_invert_uart_transceiver_test/*
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb_invert_uart_transceiver_test/*'.
+vsim -voptargs=+acc work.tb_invert_uart_transceiver_test
+# End time: 14:55:12 on May 11,2025, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.tb_invert_uart_transceiver_test 
+# Start time: 14:55:12 on May 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_rx(fast)".
+# ** Warning: D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v(26): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 8, found 7.
+# ** Warning: D:/Downloads/test FPGA/tb_invert_uart_transceiver_test.v(26): (vopt-2718) [TFMPC] - Missing connection for port 'seg'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=3.
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+vsim -voptargs=+acc work.tb_invert_uart_transceiver_test
+# End time: 14:57:08 on May 11,2025, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.tb_invert_uart_transceiver_test 
+# Start time: 14:57:09 on May 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+add wave -position insertpoint  \
+sim:/tb_invert_uart_transceiver_test/clk
+run
+run
+run
+vsim -voptargs=+acc work.tb_invert_uart_transceiver_test
+# End time: 14:59:53 on May 11,2025, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_invert_uart_transceiver_test 
+# Start time: 14:59:54 on May 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+run
+add wave -position end  sim:/tb_invert_uart_transceiver_test/clk
+vsim -voptargs=+acc work.tb_invert_uart_transceiver_test
+# End time: 15:00:25 on May 11,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_invert_uart_transceiver_test 
+# Start time: 15:00:25 on May 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+add wave -position end  sim:/tb_invert_uart_transceiver_test/clk
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rst_n
+add wave -position end  sim:/tb_invert_uart_transceiver_test/key1_n
+add wave -position end  sim:/tb_invert_uart_transceiver_test/txd
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rxd
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rx_data
+add wave -position end  sim:/tb_invert_uart_transceiver_test/leds
+run
+# Causality operation skipped due to absence of debug database file
+vsim -voptargs=+acc work.tb_invert_uart_transceiver_test
+# End time: 15:02:05 on May 11,2025, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_invert_uart_transceiver_test 
+# Start time: 15:02:05 on May 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+add wave -position end  sim:/tb_invert_uart_transceiver_test/CLK_FREQ
+add wave -position end  sim:/tb_invert_uart_transceiver_test/BAUD_RATE
+add wave -position end  sim:/tb_invert_uart_transceiver_test/BAUD_TICK_PERIOD
+add wave -position end  sim:/tb_invert_uart_transceiver_test/clk
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rst_n
+add wave -position end  sim:/tb_invert_uart_transceiver_test/key1_n
+add wave -position end  sim:/tb_invert_uart_transceiver_test/txd
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rxd
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rx_data
+add wave -position end  sim:/tb_invert_uart_transceiver_test/leds
+run -all
+vsim -voptargs=+acc work.tb_invert_uart_transceiver_test
+# End time: 16:06:11 on May 11,2025, Elapsed time: 1:04:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_invert_uart_transceiver_test 
+# Start time: 16:06:11 on May 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+add wave -position insertpoint  \
+sim:/tb_invert_uart_transceiver_test/CLK_FREQ \
+sim:/tb_invert_uart_transceiver_test/BAUD_RATE \
+sim:/tb_invert_uart_transceiver_test/BAUD_TICK_PERIOD \
+sim:/tb_invert_uart_transceiver_test/clk \
+sim:/tb_invert_uart_transceiver_test/rst_n \
+sim:/tb_invert_uart_transceiver_test/key1_n \
+sim:/tb_invert_uart_transceiver_test/txd \
+sim:/tb_invert_uart_transceiver_test/rxd \
+sim:/tb_invert_uart_transceiver_test/rx_data \
+sim:/tb_invert_uart_transceiver_test/leds
+run
+vsim -voptargs=+acc work.tb_invert_uart_transceiver_test
+# End time: 16:07:16 on May 11,2025, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_invert_uart_transceiver_test 
+# Start time: 16:07:16 on May 11,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.tb_invert_uart_transceiver_test(fast)
+# Loading work.invert_uart_transceiver_test(fast)
+# Loading work.uart_tx(fast)
+# Loading work.uart_rx(fast)
+# Loading work.binary_to_7seg(fast)
+add wave -position end  sim:/tb_invert_uart_transceiver_test/CLK_FREQ
+add wave -position end  sim:/tb_invert_uart_transceiver_test/BAUD_RATE
+add wave -position end  sim:/tb_invert_uart_transceiver_test/BAUD_TICK_PERIOD
+add wave -position end  sim:/tb_invert_uart_transceiver_test/clk
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rst_n
+add wave -position end  sim:/tb_invert_uart_transceiver_test/key1_n
+add wave -position end  sim:/tb_invert_uart_transceiver_test/txd
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rxd
+add wave -position end  sim:/tb_invert_uart_transceiver_test/rx_data
+add wave -position end  sim:/tb_invert_uart_transceiver_test/leds
+run
+# End time: 16:09:11 on May 11,2025, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0

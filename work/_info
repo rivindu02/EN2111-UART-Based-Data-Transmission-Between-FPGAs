@@ -1,0 +1,209 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/UOM/UOM ACA 4/Electronic circuit design/Project/test FPGA/test FPGA
+vinvert_uart_transceiver_test
+Z1 !s110 1746628267
+!i10b 1
+!s100 _3SK><FPkS<<jNlbzSObc1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1oGzlSmm=OICPHIcQDi5M3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1746627648
+8invert_uart_transceiver_test.v
+Finvert_uart_transceiver_test.v
+!i122 0
+L0 3 73
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1746628267.000000
+!s107 uart_tx.v|uart_transceiver_test_tb.v|uart_transceiver_test.v|uart_transceiver.v|uart_tb.v|uart_rx.v|uart_loopback_test.v|tb_invert_uart_transceiver_test.v|invert_uart_transceiver_test.v|
+Z6 !s90 -reportprogress|300|invert_uart_transceiver_test.v|tb_invert_uart_transceiver_test.v|uart_loopback_test.v|uart_rx.v|uart_tb.v|uart_transceiver.v|uart_transceiver_test.v|uart_transceiver_test_tb.v|uart_tx.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb_invert_uart_transceiver_test
+R1
+!i10b 1
+!s100 DEcR9XbcKbQbFL5Rc0V^N3
+R2
+IjJTi5em6Lo4X6ULia9AD02
+R3
+R0
+w1746628100
+8tb_invert_uart_transceiver_test.v
+Ftb_invert_uart_transceiver_test.v
+!i122 0
+L0 3 61
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 uart_tx.v|uart_transceiver_test_tb.v|uart_transceiver_test.v|uart_transceiver.v|uart_tb.v|uart_rx.v|uart_loopback_test.v|tb_invert_uart_transceiver_test.v|invert_uart_transceiver_test.v|
+R6
+!i113 1
+R7
+vuart_loopback_test
+R1
+!i10b 1
+!s100 VVz^P0MmFb`O:8]=I2o241
+R2
+ILghhf03]S3D63EM6N>kdo3
+R3
+R0
+Z9 w1746622296
+8uart_loopback_test.v
+Fuart_loopback_test.v
+!i122 0
+L0 1 54
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vuart_rx
+R1
+!i10b 1
+!s100 Odg<]CPnKJKAafh[e_Hoz0
+R2
+II`o:CC@zNkN8ggMLScP670
+R3
+R0
+w1746627647
+8uart_rx.v
+Fuart_rx.v
+!i122 0
+L0 3 66
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vuart_tb
+R1
+!i10b 1
+!s100 A`NhFiPe;;dZXOGYieMdH1
+R2
+I^`O8T=kD_H4eeCgdd>mIB2
+R3
+R0
+R9
+8uart_tb.v
+Fuart_tb.v
+!i122 0
+L0 3 89
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vuart_transceiver
+R1
+!i10b 1
+!s100 >]hK`@1g4bj;`iK[z1LUg0
+R2
+I=@I]BIL_=]^84lWb72SKm0
+R3
+R0
+R9
+8uart_transceiver.v
+Fuart_transceiver.v
+!i122 0
+L0 3 53
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vuart_transceiver_test
+R1
+!i10b 1
+!s100 AlaMmE?N6W0[30`J:_TdA0
+R2
+I_VCS[n`K9DLW`DjSBJH?]3
+R3
+R0
+Z10 w1746622297
+8uart_transceiver_test.v
+Fuart_transceiver_test.v
+!i122 0
+L0 3 74
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vuart_transceiver_test_tb
+R1
+!i10b 1
+!s100 CV<X`7diz>GeDm06BkT^X2
+R2
+I0Fdc5ShmdHD@=NaFVbWb?2
+R3
+R0
+R10
+8uart_transceiver_test_tb.v
+Fuart_transceiver_test_tb.v
+!i122 0
+L0 3 62
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7
+vuart_tx
+R1
+!i10b 1
+!s100 E7UAa`6J:bY1FC_knblmX0
+R2
+Im52H^D[>52XP:16m6LXM52
+R3
+R0
+w1746627402
+8uart_tx.v
+Fuart_tx.v
+!i122 0
+L0 3 33
+R4
+r1
+!s85 0
+31
+R5
+R8
+R6
+!i113 1
+R7

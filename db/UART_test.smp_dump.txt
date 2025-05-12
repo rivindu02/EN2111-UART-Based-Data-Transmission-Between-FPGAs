@@ -1,0 +1,7 @@
+
+State Machine - |tb_invert_uart_transceiver_test|invert_uart_transceiver_test:dut|uart_rx:receiver|state
+Name state.STOP state.DATA state.START state.00 
+state.00 0 0 0 0 
+state.START 0 0 1 1 
+state.DATA 0 1 0 1 
+state.STOP 1 0 0 1 

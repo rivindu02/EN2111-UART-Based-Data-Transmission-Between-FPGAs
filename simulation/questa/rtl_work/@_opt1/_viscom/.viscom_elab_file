@@ -1,0 +1,1 @@
+d:/documents/altera/24.1std/questa_fse/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 344352 work.tb_invert_uart_transceiver_test -quiet -auto_acc_if_foreign -work work +acc -allow_unnamed -o _opt1 -id 1-ac198ef8a14c-68206cf8-2f0-6ba0 +__betafsm

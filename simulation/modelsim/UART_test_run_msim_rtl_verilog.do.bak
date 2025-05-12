@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/Sem\ 04\ ACA/Circuit\ Design/test\ FPGA {E:/Sem 04 ACA/Circuit Design/test FPGA/uart_tx.v}
+vlog -vlog01compat -work work +incdir+E:/Sem\ 04\ ACA/Circuit\ Design/test\ FPGA {E:/Sem 04 ACA/Circuit Design/test FPGA/uart_rx.v}
+vlog -vlog01compat -work work +incdir+E:/Sem\ 04\ ACA/Circuit\ Design/test\ FPGA {E:/Sem 04 ACA/Circuit Design/test FPGA/uart_transceiver_test.v}
+

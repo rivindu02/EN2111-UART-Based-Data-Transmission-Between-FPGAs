@@ -1,0 +1,132 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER/Documents/quartus/test FPGA/simulation/modelsim
+vbinary_to_7seg
+Z1 !s110 1746677617
+!i10b 1
+!s100 n:Sjl2_U2@^UJ1dU22^QA3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMOM58QUkJhc5]1lRFBNOM3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1746636332
+8C:/Users/USER/Documents/quartus/test FPGA/binary_to_7seg.v
+FC:/Users/USER/Documents/quartus/test FPGA/binary_to_7seg.v
+!i122 3
+L0 1 34
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1746677617.000000
+!s107 C:/Users/USER/Documents/quartus/test FPGA/binary_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/quartus/test FPGA|C:/Users/USER/Documents/quartus/test FPGA/binary_to_7seg.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/USER/Documents/quartus/test FPGA}
+Z8 tCvgOpt 0
+vinvert_uart_transceiver_test
+R1
+!i10b 1
+!s100 g=A6dWJm6<iVDK141:]W63
+R2
+IOF`fn[Bn<d6kDKcTAL0Hj1
+R3
+R0
+w1746677483
+8C:/Users/USER/Documents/quartus/test FPGA/invert_uart_transceiver_test.v
+FC:/Users/USER/Documents/quartus/test FPGA/invert_uart_transceiver_test.v
+!i122 2
+L0 3 80
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/USER/Documents/quartus/test FPGA/invert_uart_transceiver_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/quartus/test FPGA|C:/Users/USER/Documents/quartus/test FPGA/invert_uart_transceiver_test.v|
+!i113 1
+R6
+R7
+R8
+vtb_invert_uart_transceiver_test
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1746677779
+!i10b 1
+!s100 <nO5@>[CKDbBY=K]EZ38T1
+R2
+Ii?ELCE7XJzA1kINK1m;lM2
+R3
+S1
+R0
+w1746628100
+8C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v
+FC:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v
+!i122 4
+L0 3 61
+R4
+r1
+!s85 0
+31
+!s108 1746677779.000000
+!s107 C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v|
+!s90 -reportprogress|300|-sv|C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v|
+!i113 1
+o-sv
+R8
+vuart_rx
+R1
+!i10b 1
+!s100 <754SgSaFYH=A6^8iAFmX3
+R2
+IS3:ZHTobgkIoi4kkYHXXE0
+R3
+R0
+w1746627647
+8C:/Users/USER/Documents/quartus/test FPGA/uart_rx.v
+FC:/Users/USER/Documents/quartus/test FPGA/uart_rx.v
+!i122 1
+L0 3 66
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/USER/Documents/quartus/test FPGA/uart_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/quartus/test FPGA|C:/Users/USER/Documents/quartus/test FPGA/uart_rx.v|
+!i113 1
+R6
+R7
+R8
+vuart_tx
+!s110 1746677616
+!i10b 1
+!s100 QB8:je35_4hLg0fDoACRi1
+R2
+IZM04AEj:62V>6[RhP6Ag73
+R3
+R0
+w1746627402
+8C:/Users/USER/Documents/quartus/test FPGA/uart_tx.v
+FC:/Users/USER/Documents/quartus/test FPGA/uart_tx.v
+!i122 0
+L0 3 33
+R4
+r1
+!s85 0
+31
+!s108 1746677616.000000
+!s107 C:/Users/USER/Documents/quartus/test FPGA/uart_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/quartus/test FPGA|C:/Users/USER/Documents/quartus/test FPGA/uart_tx.v|
+!i113 1
+R6
+R7
+R8

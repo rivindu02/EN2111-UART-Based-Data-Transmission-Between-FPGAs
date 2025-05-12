@@ -1,0 +1,93 @@
+# Reading pref.tcl
+# do UART_test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/quartus/test\ FPGA {C:/Users/USER/Documents/quartus/test FPGA/uart_tx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:43:36 on May 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/quartus/test FPGA" C:/Users/USER/Documents/quartus/test FPGA/uart_tx.v 
+# -- Compiling module uart_tx
+# 
+# Top level modules:
+# 	uart_tx
+# End time: 09:43:36 on May 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/quartus/test\ FPGA {C:/Users/USER/Documents/quartus/test FPGA/uart_rx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:43:37 on May 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/quartus/test FPGA" C:/Users/USER/Documents/quartus/test FPGA/uart_rx.v 
+# -- Compiling module uart_rx
+# 
+# Top level modules:
+# 	uart_rx
+# End time: 09:43:37 on May 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/quartus/test\ FPGA {C:/Users/USER/Documents/quartus/test FPGA/invert_uart_transceiver_test.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:43:37 on May 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/quartus/test FPGA" C:/Users/USER/Documents/quartus/test FPGA/invert_uart_transceiver_test.v 
+# -- Compiling module invert_uart_transceiver_test
+# 
+# Top level modules:
+# 	invert_uart_transceiver_test
+# End time: 09:43:37 on May 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/quartus/test\ FPGA {C:/Users/USER/Documents/quartus/test FPGA/binary_to_7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:43:37 on May 08,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/quartus/test FPGA" C:/Users/USER/Documents/quartus/test FPGA/binary_to_7seg.v 
+# -- Compiling module binary_to_7seg
+# 
+# Top level modules:
+# 	binary_to_7seg
+# End time: 09:43:37 on May 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -sv "C:\Users\USER\Documents\quartus\test FPGA\tb_invert_uart_transceiver_test.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:45:31 on May 08,2025
+# vlog -reportprogress 300 -sv C:UsersUSERDocumentsquartus	est FPGA	b_invert_uart_transceiver_test.v 
+# ** Error: (vlog-7) Failed to open design unit file "C:UsersUSERDocumentsquartus	est FPGA	b_invert_uart_transceiver_test.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 09:45:31 on May 08,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog -sv "C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:46:19 on May 08,2025
+# vlog -reportprogress 300 -sv C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v 
+# -- Compiling module tb_invert_uart_transceiver_test
+# 
+# Top level modules:
+# 	tb_invert_uart_transceiver_test
+# End time: 09:46:19 on May 08,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_invert_uart_transceiver_test
+# vsim work.tb_invert_uart_transceiver_test 
+# Start time: 09:46:25 on May 08,2025
+# Loading sv_std.std
+# Loading work.tb_invert_uart_transceiver_test
+# Loading work.invert_uart_transceiver_test
+# Loading work.uart_tx
+# Loading work.uart_rx
+# Loading work.binary_to_7seg
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_invert_uart_transceiver_test/dut File: C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v Line: 26
+# ** Warning: (vsim-3722) C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v(26): [TFMPC] - Missing connection for port 'seg'.
+add wave -position insertpoint sim:/tb_invert_uart_transceiver_test/*
+run -all
+# Received data: 10
+# LEDs: 00010000
+# ** Note: $stop    : C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v(60)
+#    Time: 104161240 ns  Iteration: 0  Instance: /tb_invert_uart_transceiver_test
+# Break in Module tb_invert_uart_transceiver_test at C:/Users/USER/Documents/quartus/test FPGA/tb_invert_uart_transceiver_test.v line 60
+# End time: 17:40:57 on May 08,2025, Elapsed time: 7:54:32
+# Errors: 0, Warnings: 2
