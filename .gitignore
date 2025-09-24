@@ -1,23 +1,52 @@
-# ignore ModelSim generated files and directories (temp files and so on)
-[_@]*
-
-# ignore compilation output of ModelSim
-*.mti
-*.dat
-*.dbs
-*.psm
+# Quartus Prime auto-generated files
+*.qpf
+*.qsf
+*.qws
+*.rpt
+*.summary
+*.smsg
 *.bak
-*.cmp
-*.jpg
-*.html
-*.bsf
+*.qmsg
+*.chg
+*.eqn
+*.pin
+*.qip
+*.sld
+*.jdi
+*.qdf
+*.qdb
+*.qxp
+*.qar
+*.qarlog
+*.lock
+*.sof
+*.pof
+*.jic
+*.hexout
+*.sopcinfo
 
-# ignore simulation output of ModelSim
-wlf*
+# Simulation (ModelSim / Questa) generated files
 *.wlf
+*.vcd
+*.do
+*.ini
+work/
+transcript
+vsim.wlf
 *.vstf
+*.db
+*.rdb
+*.log
 *.ucdb
-cov*/
-transcript*
-sc_dpiheader.h
-vsim.dbg
+.qpf.~
+
+# Temp / backup files
+*~
+*.swp
+*.tmp
+
+# Build output directories
+db/
+incremental_db/
+simulation/
+output_files/
